@@ -8,14 +8,14 @@ body {
 }
 
 .img-container img {
-	height: 200px; 
+	height: 200px;
 	border-radius: 100px;
 	border: 3px solid #CCC;
 }
 
 .name-container h1 {
 	font-size: 36px;
-	font-family: sans-serif;
+	font-family: 'Lato'';
 	font-weight: 100;
 	width: 250px;
 	margin: 20px auto;
@@ -24,19 +24,40 @@ body {
 
 .name-container h2 {
 	font-size: 30px;
-	font-family: sans-serif;
+	font-family: 'Lato';
 	font-weight: 150;
 	width: 250px;
 	margin: 60px auto;
 }
-.name-container h4 {
-	font-size: 28;
-	font-family: sans-serif;
-	font-weight: 80
+
+.description-container1 {
+	font-size: 18;
+	font-family: 'Lato';
+	font-weight: 200;
+	margin-bottom: 30px;
 }
 
-.description-container {
+.description-container2 {
 	font-size: 18;
-	font-family: sans-serif;
+	font-family: 'Lato';
 	font-weight: 200;
+	margin-top: auto;
+	margin-bottom: 30px;
+}
+
+.icons {
+	font-size: 2em;
+}
+
+.icons i {
+	margin: 0 0.5em;
+}
+
+.icons a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.icons a:hover {
+	color: #999;
 }
